@@ -1,4 +1,7 @@
-現在VRM0系のみ対応。
+予めUniVRM 0.120とliltoonをプロジェクトにインポートしてください
+BuiltInVrmMToonMaterialImporter.csとBuiltInVrmExtensionMaterialPropertyExporter.csをそれぞれ置き換えてください。
+
+現在VRM0系のみ対応。書き出したVRMにはliltoonのマテリアル情報が保存されます。
 エディター上でのエクスポート、インポートまでは確認してます。
-ランタイム上ではliltoonマテリアルは読み込めてはいるものの復元に失敗します
+ランタイム上ではliltoonマテリアルは読み込めてはいるものの復元に失敗します。
 修正方法が分かったら共有して頂けると助かります。
